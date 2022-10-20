@@ -24,7 +24,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
                         alt="close sidebar"
                         id={'hw5-menu-close'}
                     />
-                </button>w
+                </button>
 
                 <nav id={'hw5-menu'} className={s.nav}>
                     <NavLink
