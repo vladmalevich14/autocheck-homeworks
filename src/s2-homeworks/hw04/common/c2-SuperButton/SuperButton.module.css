@@ -4,11 +4,13 @@
     padding: 5px 25px;
     font-size: 16px;
     border: 0;
+    cursor: pointer;
 }
 
 .disabled {
     background: rgba(0,77,153,0.5);
     color: #002E5C;
+    cursor: not-allowed;
 }
 
 .secondary {

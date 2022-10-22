@@ -28,6 +28,7 @@
 
 .button:hover {
     background: #0059b3;
+    cursor: pointer;
 }
 
 .button:active {

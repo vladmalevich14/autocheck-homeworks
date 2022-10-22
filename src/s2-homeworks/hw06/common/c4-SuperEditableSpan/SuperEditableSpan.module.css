@@ -1,7 +1,11 @@
 .spanBlock {
+    display: flex;
+    margin-bottom: 14px;
 }
 
 .span {
+    margin-left: 10px;
+    color: #0080FF;
 }
 
 .input {

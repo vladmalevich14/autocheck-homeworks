@@ -23,7 +23,6 @@
 }
 
 .nav {
-
 }
 
 .nav a {
@@ -53,4 +52,5 @@
 }
 
 .close img {
+    cursor: pointer;
 }

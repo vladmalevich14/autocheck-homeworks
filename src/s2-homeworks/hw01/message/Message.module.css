@@ -16,6 +16,7 @@
     border-radius: 50%;
     padding: 5px 0 5px 5px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .text {
@@ -45,6 +46,7 @@
     margin: 5px 0 10px 0;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .messageText {
