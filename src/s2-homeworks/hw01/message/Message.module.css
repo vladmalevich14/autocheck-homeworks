@@ -8,6 +8,7 @@
 .imageAndText {
     display: flex;
     flex-direction: row-reverse;
+    align-items: end;
 }
 
 .imageAndText img {
@@ -21,7 +22,7 @@
 
 .text {
     margin: 10px 0 0 15px;
-    padding: 0 10px 5px 10px;
+    padding: 0 10px 10px 10px;
     border-radius: 15px 15px 0 15px;
     background-color: #0066CC;
     color: white;
