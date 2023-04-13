@@ -1,5 +1,6 @@
 .tech {
-    width: 50vw;
+    width: 100px;
+    margin-right: 200px;
 }
 
 .developer {
@@ -7,20 +8,36 @@
 }
 
 .techHeader {
-    width: 50vw;
+    width: 100px;
+    margin-right: 200px;
+    font-weight: bold;
+}
+
+.techHeader span{
+   margin-right: 3px;
 }
 
 .developerHeader {
+    font-weight: bold;
+}
 
+.developerHeader span{
+    margin-right: 3px;
 }
 
 .row {
     display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #E5E5E5;
+    padding: 10px 20px;
 }
 
 .rowHeader {
     display: flex;
-    margin-top: 20px;
+    justify-content: flex-start;
+    margin-top: 40px;
+    background-color: #E5E5E5;
+    padding: 10px 20px;
 }
 
 .loading {

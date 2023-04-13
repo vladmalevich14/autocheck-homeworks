@@ -95,7 +95,7 @@ const HW15 = () => {
     ))
 
     return (
-        <div id={'hw15'}>
+        <div id={'hw15'} className={s2.mainBlock}>
             <hr/>
             <div className={s2.hwTitle}>Homework #15</div>
 
@@ -111,18 +111,19 @@ const HW15 = () => {
 
                 <div className={s.rowHeader}>
                     <div className={s.techHeader}>
-                        tech
-                        <SuperSort sort={sort} value={'tech'} onChange={onChangeSort}/>
+                        <span>tech</span>
+                        <SuperSort sort={sort} value={'tech'} onChange={onChangeSort} />
                     </div>
 
                     <div className={s.developerHeader}>
-                        developer
+                        <span>developer</span>
                         <SuperSort sort={sort} value={'developer'} onChange={onChangeSort}/>
                     </div>
                 </div>
 
                 {mappedTechs}
             </div>
+            <hr/>
         </div>
     )
 }

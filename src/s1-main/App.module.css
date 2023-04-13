@@ -1,10 +1,15 @@
+.mainBlock {
+    padding-bottom: 20px;
+}
+
 .App {
     --header_height: 60px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hw {
-    margin: 20px 0 20px 50px;
+    margin: 20px 0 50px 50px;
+    width: 650px;
 }
 
 .hwTitle {
